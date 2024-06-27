@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="677.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainSceneController">
+   <children>
+      <GridPane fx:id="backgroundGrid" layoutX="14.0" layoutY="11.0" prefHeight="652.0" prefWidth="569.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label fx:id="sq1" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" opacity="0.76" prefHeight="212.0" prefWidth="182.0" style="-fx-background-color: #4A536B;" textFill="RED" GridPane.columnIndex="0" GridPane.halignment="CENTER" GridPane.rowIndex="0" GridPane.valignment="CENTER" />
+            <Label fx:id="sq2" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="212.0" prefWidth="182.0" style="-fx-background-color: #E9D2C9;" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="0" GridPane.valignment="CENTER" />
+            <Label fx:id="sq3" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="212.0" prefWidth="182.0" style="-fx-background-color: AED6DC;" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="0" GridPane.valignment="CENTER" />
+            <Label fx:id="sq4" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="212.0" prefWidth="182.0" style="-fx-background-color: #E9D2C9;" GridPane.columnIndex="0" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+            <Label fx:id="sq5" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="212.0" prefWidth="182.0" style="-fx-background-color: AED6DC;" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+            <Label fx:id="sq6" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="212.0" prefWidth="182.0" style="-fx-background-color: #4A536B;" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+            <Label fx:id="sq7" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="212.0" prefWidth="182.0" style="-fx-background-color: AED6DC;" GridPane.columnIndex="0" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER" />
+            <Label fx:id="sq8" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" opacity="0.86" prefHeight="212.0" prefWidth="182.0" style="-fx-background-color: #4A536B;" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER" />
+            <Label fx:id="sq9" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="212.0" prefWidth="182.0" style="-fx-background-color: #E9D2C9;" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER" />
+         </children>
+      </GridPane>
+      <GridPane fx:id="GridPaneLabel" gridLinesVisible="true" layoutX="100.0" layoutY="30.0" prefHeight="369.0" prefWidth="400.0" visible="false" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="100.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="100.0" minWidth="10.0" prefWidth="50.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="100.0" minWidth="10.0" prefWidth="50.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="100.0" minWidth="10.0" prefWidth="50.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="100.0" minWidth="10.0" prefWidth="50.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="100.0" minWidth="10.0" prefWidth="50.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="100.0" minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="100.0" minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="100.0" minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="100.0" minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="100.0" minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="100.0" minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label fx:id="L0" alignment="CENTER" maxWidth="1.7976931348623157E308" prefHeight="67.0" prefWidth="76.0" textFill="WHITE" GridPane.columnIndex="0" GridPane.rowIndex="0">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <effect>
+                  <Blend />
+               </effect>
+               <font>
+                  <Font size="18.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+            </Label>
+            <Label fx:id="L1" alignment="CENTER" maxWidth="1.7976931348623157E308" prefHeight="62.0" prefWidth="57.0" GridPane.columnIndex="1" GridPane.rowIndex="0">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <effect>
+                  <Blend />
+               </effect>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="L2" alignment="CENTER" maxWidth="1.7976931348623157E308" prefHeight="62.0" prefWidth="57.0" GridPane.columnIndex="2" GridPane.rowIndex="0">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <effect>
+                  <Blend />
+               </effect>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="L3" alignment="CENTER" maxWidth="1.7976931348623157E308" prefHeight="62.0" prefWidth="57.0" GridPane.columnIndex="3" GridPane.rowIndex="0">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <effect>
+                  <Blend />
+               </effect>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="L4" alignment="CENTER" maxWidth="1.7976931348623157E308" prefHeight="62.0" prefWidth="57.0" GridPane.columnIndex="4" GridPane.rowIndex="0">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <effect>
+                  <Blend />
+               </effect>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="L5" alignment="CENTER" maxWidth="1.7976931348623157E308" prefHeight="62.0" prefWidth="57.0" GridPane.columnIndex="0" GridPane.rowIndex="1">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <effect>
+                  <Blend />
+               </effect>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="L6" alignment="CENTER" maxWidth="1.7976931348623157E308" prefHeight="62.0" prefWidth="57.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <effect>
+                  <Blend />
+               </effect>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="L7" alignment="CENTER" maxWidth="1.7976931348623157E308" prefHeight="62.0" prefWidth="57.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="L8" alignment="CENTER" maxWidth="1.7976931348623157E308" prefHeight="62.0" prefWidth="57.0" GridPane.columnIndex="3" GridPane.rowIndex="1">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <effect>
+                  <Blend />
+               </effect>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="L9" alignment="CENTER" maxWidth="1.7976931348623157E308" prefHeight="62.0" prefWidth="57.0" GridPane.columnIndex="4" GridPane.rowIndex="1">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <effect>
+                  <Blend />
+               </effect>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="L10" alignment="CENTER" maxWidth="1.7976931348623157E308" prefHeight="62.0" prefWidth="57.0" GridPane.columnIndex="0" GridPane.rowIndex="2">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <effect>
+                  <Blend />
+               </effect>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="L11" alignment="CENTER" maxWidth="1.7976931348623157E308" prefHeight="62.0" prefWidth="57.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <effect>
+                  <Blend />
+               </effect>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="L12" alignment="CENTER" maxWidth="1.7976931348623157E308" prefHeight="62.0" prefWidth="57.0" GridPane.columnIndex="2" GridPane.rowIndex="2">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="L13" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="62.0" prefWidth="57.0" GridPane.columnIndex="3" GridPane.rowIndex="2">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <effect>
+                  <Blend />
+               </effect>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="L14" alignment="CENTER" maxWidth="1.7976931348623157E308" prefHeight="62.0" prefWidth="57.0" GridPane.columnIndex="4" GridPane.rowIndex="2">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <effect>
+                  <Blend />
+               </effect>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="L15" alignment="CENTER" maxWidth="1.7976931348623157E308" prefHeight="62.0" prefWidth="57.0" GridPane.columnIndex="0" GridPane.rowIndex="3">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <effect>
+                  <Blend />
+               </effect>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="L16" alignment="CENTER" maxWidth="1.7976931348623157E308" prefHeight="62.0" prefWidth="57.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <effect>
+                  <Blend />
+               </effect>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="L17" alignment="CENTER" maxWidth="1.7976931348623157E308" prefHeight="62.0" prefWidth="57.0" GridPane.columnIndex="2" GridPane.rowIndex="3">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="L18" alignment="CENTER" maxWidth="1.7976931348623157E308" prefHeight="62.0" prefWidth="57.0" GridPane.columnIndex="3" GridPane.rowIndex="3">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <effect>
+                  <Blend />
+               </effect>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="L19" alignment="CENTER" maxWidth="1.7976931348623157E308" prefHeight="62.0" prefWidth="57.0" GridPane.columnIndex="4" GridPane.rowIndex="3">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <effect>
+                  <Blend />
+               </effect>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="L20" alignment="CENTER" maxWidth="1.7976931348623157E308" prefHeight="62.0" prefWidth="57.0" GridPane.columnIndex="0" GridPane.rowIndex="4">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <effect>
+                  <Blend />
+               </effect>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="L21" alignment="CENTER" maxWidth="1.7976931348623157E308" prefHeight="62.0" prefWidth="57.0" GridPane.columnIndex="1" GridPane.rowIndex="4">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <effect>
+                  <Blend />
+               </effect>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="L22" alignment="CENTER" maxWidth="1.7976931348623157E308" prefHeight="62.0" prefWidth="57.0" GridPane.columnIndex="2" GridPane.rowIndex="4">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="L23" alignment="CENTER" maxWidth="1.7976931348623157E308" prefHeight="62.0" prefWidth="57.0" GridPane.columnIndex="3" GridPane.rowIndex="4">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <effect>
+                  <Blend />
+               </effect>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="L24" alignment="CENTER" maxWidth="1.7976931348623157E308" prefHeight="62.0" prefWidth="57.0" GridPane.columnIndex="4" GridPane.rowIndex="4">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <effect>
+                  <Blend />
+               </effect>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="L25" alignment="CENTER" maxWidth="1.7976931348623157E308" prefHeight="62.0" prefWidth="57.0" GridPane.columnIndex="0" GridPane.rowIndex="5">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <effect>
+                  <Blend />
+               </effect>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="L26" alignment="CENTER" maxWidth="1.7976931348623157E308" prefHeight="62.0" prefWidth="57.0" GridPane.columnIndex="1" GridPane.rowIndex="5">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <effect>
+                  <Blend />
+               </effect>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="L27" alignment="CENTER" maxWidth="1.7976931348623157E308" prefHeight="62.0" prefWidth="57.0" GridPane.columnIndex="2" GridPane.rowIndex="5">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="L28" alignment="CENTER" maxWidth="1.7976931348623157E308" prefHeight="62.0" prefWidth="57.0" GridPane.columnIndex="3" GridPane.rowIndex="5">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <effect>
+                  <Blend />
+               </effect>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="L29" alignment="CENTER" maxWidth="1.7976931348623157E308" prefHeight="62.0" prefWidth="57.0" GridPane.columnIndex="4" GridPane.rowIndex="5">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <effect>
+                  <Blend />
+               </effect>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </GridPane>
+      <GridPane fx:id="GridPaneTopKeys" hgap="10.0" layoutX="30.0" layoutY="425.0" visible="false">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="45.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="45.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="45.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="45.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="45.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="45.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="45.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="45.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="45.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="45.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="58.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Button fx:id="Q" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#BtnOnClicked" prefHeight="52.0" prefWidth="39.0" text="Q" />
+            <Button fx:id="W" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#BtnOnClicked" prefHeight="52.0" prefWidth="39.0" text="W" GridPane.columnIndex="1" />
+            <Button fx:id="E" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#BtnOnClicked" prefHeight="52.0" prefWidth="39.0" text="E" GridPane.columnIndex="2" />
+            <Button fx:id="R" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#BtnOnClicked" prefHeight="52.0" prefWidth="39.0" text="R" GridPane.columnIndex="3" />
+            <Button fx:id="T" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#BtnOnClicked" prefHeight="52.0" prefWidth="39.0" text="T" GridPane.columnIndex="4" />
+            <Button fx:id="Y" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#BtnOnClicked" prefHeight="52.0" prefWidth="39.0" text="Y" GridPane.columnIndex="5" />
+            <Button fx:id="U" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#BtnOnClicked" prefHeight="52.0" prefWidth="39.0" text="U" GridPane.columnIndex="6" />
+            <Button fx:id="I" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#BtnOnClicked" prefHeight="52.0" prefWidth="39.0" text="I" GridPane.columnIndex="7" />
+            <Button fx:id="O" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#BtnOnClicked" prefHeight="52.0" prefWidth="39.0" text="O" GridPane.columnIndex="8" />
+            <Button fx:id="P" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#BtnOnClicked" prefHeight="52.0" prefWidth="39.0" text="P" GridPane.columnIndex="9" />
+         </children>
+      </GridPane>
+      <GridPane fx:id="GridPaneMiddleKeys" hgap="10.0" layoutX="58.0" layoutY="499.0" visible="false">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="45.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="45.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="45.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="45.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="45.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="45.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="45.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="45.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="45.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="58.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <Button fx:id="A" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#BtnOnClicked" prefHeight="52.0" prefWidth="39.0" text="A" />
+            <Button fx:id="S" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#BtnOnClicked" prefHeight="52.0" prefWidth="39.0" text="S" GridPane.columnIndex="1" />
+            <Button fx:id="D" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#BtnOnClicked" prefHeight="52.0" prefWidth="39.0" text="D" GridPane.columnIndex="2" />
+            <Button fx:id="F" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#BtnOnClicked" prefHeight="52.0" prefWidth="39.0" text="F" GridPane.columnIndex="3" />
+            <Button fx:id="G" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#BtnOnClicked" prefHeight="52.0" prefWidth="39.0" text="G" GridPane.columnIndex="4" />
+            <Button fx:id="H" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#BtnOnClicked" prefHeight="52.0" prefWidth="39.0" text="H" GridPane.columnIndex="5" />
+            <Button fx:id="J" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#BtnOnClicked" prefHeight="52.0" prefWidth="39.0" text="J" GridPane.columnIndex="6" />
+            <Button fx:id="K" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#BtnOnClicked" prefHeight="52.0" prefWidth="39.0" text="K" GridPane.columnIndex="7" />
+            <Button fx:id="L" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#BtnOnClicked" prefHeight="52.0" prefWidth="39.0" text="L" GridPane.columnIndex="8" />
+         </children>
+      </GridPane>
+      <GridPane fx:id="GridPaneBottomKeys" hgap="10.0" layoutX="28.0" layoutY="573.0" visible="false">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="75.0" minWidth="10.0" prefWidth="75.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="45.0" minWidth="10.0" prefWidth="45.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="45.0" minWidth="10.0" prefWidth="45.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="45.0" minWidth="10.0" prefWidth="45.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="45.0" minWidth="10.0" prefWidth="45.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="45.0" minWidth="10.0" prefWidth="45.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="45.0" minWidth="10.0" prefWidth="45.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="45.0" minWidth="5.0" prefWidth="45.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="75.0" minWidth="10.0" prefWidth="75.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="58.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <Button fx:id="Enter" disable="true" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#EnterBtnClicked" prefHeight="58.0" prefWidth="63.0" text="ENTER" />
+            <Button fx:id="Z" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#BtnOnClicked" prefHeight="52.0" prefWidth="39.0" text="Z" GridPane.columnIndex="1" />
+            <Button fx:id="X" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#BtnOnClicked" prefHeight="52.0" prefWidth="39.0" text="X" GridPane.columnIndex="2" />
+            <Button fx:id="C" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#BtnOnClicked" prefHeight="52.0" prefWidth="39.0" text="C" GridPane.columnIndex="3" />
+            <Button fx:id="V" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#BtnOnClicked" prefHeight="52.0" prefWidth="39.0" text="V" GridPane.columnIndex="4" />
+            <Button fx:id="B" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#BtnOnClicked" prefHeight="52.0" prefWidth="39.0" text="B" GridPane.columnIndex="5" />
+            <Button fx:id="N" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#BtnOnClicked" prefHeight="52.0" prefWidth="39.0" text="N" GridPane.columnIndex="6" />
+            <Button fx:id="M" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#BtnOnClicked" prefHeight="52.0" prefWidth="39.0" text="M" GridPane.columnIndex="7" />
+            <Button fx:id="Back" disable="true" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#BackBtnClicked" prefHeight="52.0" prefWidth="39.0" text="BACK" GridPane.columnIndex="8" />
+         </children>
+      </GridPane>
+      <TitledPane fx:id="statsPane" animated="false" layoutX="143.0" layoutY="96.0" prefHeight="358.0" prefWidth="316.0" text="Stats" visible="false">
+        <content>
+          <AnchorPane fx:id="statsAnchorPane" minHeight="0.0" minWidth="0.0" prefHeight="349.0" prefWidth="314.0">
+               <children>
+                  <Label fx:id="hiddenWordLabel" layoutX="84.0" layoutY="295.0" prefHeight="17.0" prefWidth="80.0" text="Hidden Word:" textFill="WHITE" />
+                  <Label fx:id="CongratsGameOver" alignment="CENTER" contentDisplay="CENTER" layoutX="108.0" layoutY="14.0" text="You Won!" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="24.0" layoutY="49.0" text="Statistics" textFill="WHITE" />
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="24.0" layoutY="111.0" maxWidth="60.0" prefHeight="26.0" prefWidth="45.0" text="Played" textFill="WHITE" AnchorPane.leftAnchor="25.0" />
+                  <Label alignment="CENTER" layoutX="96.0" layoutY="111.0" prefHeight="26.0" prefWidth="45.0" text="Win %" textFill="WHITE" AnchorPane.leftAnchor="90.0" />
+                  <Label alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="160.0" layoutY="113.0" prefHeight="48.0" prefWidth="45.0" text="Current Streak" textAlignment="CENTER" textFill="WHITE" textOverrun="CLIP" wrapText="true" AnchorPane.leftAnchor="155.0">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </Label>
+                  <Label alignment="TOP_CENTER" layoutX="241.5" layoutY="111.0" prefHeight="40.0" prefWidth="45.0" text="Max Streak" textAlignment="CENTER" textFill="WHITE" wrapText="true" AnchorPane.leftAnchor="220.0" />
+                  <Label fx:id="played" alignment="CENTER" contentDisplay="CENTER" layoutX="36.0" layoutY="73.0" prefHeight="38.0" prefWidth="44.0" text="45" textFill="WHITE">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="winPercent" alignment="CENTER" contentDisplay="CENTER" layoutX="86.0" layoutY="73.0" prefHeight="38.0" prefWidth="75.0" text="45.0%" textFill="WHITE">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="currentStreak" alignment="CENTER" contentDisplay="CENTER" layoutX="166.0" layoutY="73.0" prefHeight="38.0" prefWidth="44.0" text="45" textFill="WHITE">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="maxStreak" alignment="CENTER" contentDisplay="CENTER" layoutX="231.0" layoutY="73.0" prefHeight="38.0" prefWidth="44.0" text="45" textFill="WHITE">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="hiddenWord" layoutX="182.0" layoutY="295.0" prefHeight="17.0" prefWidth="80.0" text="&quot;&quot;" textFill="WHITE" />
+                  <Label layoutX="88.0" layoutY="177.0" text="Guess Distribution" textFill="WHITE">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="46.0" layoutY="256.0" text="1st" textFill="#4a536b" AnchorPane.bottomAnchor="45.0" AnchorPane.leftAnchor="35.0" />
+                  <Label layoutX="90.0" layoutY="259.0" text="2nd" textFill="#4a536b" AnchorPane.bottomAnchor="45.0" AnchorPane.leftAnchor="75.0" />
+                  <Label layoutX="124.0" layoutY="259.0" text="3rd" textFill="#4a536b" AnchorPane.bottomAnchor="45.0" AnchorPane.leftAnchor="115.0" />
+                  <Label layoutX="164.0" layoutY="259.0" text="4th" textFill="#4a536b" AnchorPane.bottomAnchor="45.0" AnchorPane.leftAnchor="155.0" />
+                  <Label layoutX="213.0" layoutY="259.0" text="5th" textFill="#4a536b" AnchorPane.bottomAnchor="45.0" AnchorPane.leftAnchor="195.0" />
+                  <Label layoutX="253.0" layoutY="259.0" text="6th" textFill="#4a536b" AnchorPane.bottomAnchor="45.0" AnchorPane.leftAnchor="235.0" />
+                  <Label fx:id="firstG" alignment="CENTER" contentDisplay="CENTER" layoutX="35.0" layoutY="216.0" prefHeight="40.0" prefWidth="37.0" text="45" textFill="WHITE">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="secondG" alignment="CENTER" contentDisplay="CENTER" layoutX="78.0" layoutY="216.0" prefHeight="40.0" prefWidth="37.0" text="45" textFill="WHITE">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="thirdG" alignment="CENTER" contentDisplay="CENTER" layoutX="117.0" layoutY="216.0" prefHeight="40.0" prefWidth="37.0" text="45" textFill="WHITE">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="fourthG" alignment="CENTER" contentDisplay="CENTER" layoutX="157.0" layoutY="216.0" prefHeight="40.0" prefWidth="37.0" text="45" textFill="WHITE">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="fifthG" alignment="CENTER" contentDisplay="CENTER" layoutX="197.0" layoutY="216.0" prefHeight="40.0" prefWidth="37.0" text="45" textFill="WHITE">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="sixthG" alignment="CENTER" contentDisplay="CENTER" layoutX="237.0" layoutY="216.0" prefHeight="40.0" prefWidth="37.0" text="45" textFill="WHITE">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+        </content>
+      </TitledPane>
+      <Button fx:id="playAgainBtn" layoutX="248.0" layoutY="517.0" mnemonicParsing="false" onAction="#startBtnClicked" prefHeight="40.0" prefWidth="105.0" text="Play Again?" textAlignment="CENTER" textFill="#4a536b" visible="false" />
+      <Label fx:id="notValidWordLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="187.0" layoutY="6.0" prefHeight="17.0" prefWidth="228.0" text="Not a Valid 5-Letter Word - Try again." textFill="RED" visible="false">
+         <effect>
+            <DropShadow />
+         </effect>
+      </Label>
+      <Button fx:id="saveBtn" layoutX="521.0" layoutY="30.0" mnemonicParsing="false" onAction="#saveDataFunc" prefHeight="26.0" prefWidth="66.0" text="Save" visible="false" />
+      <Button fx:id="resetBtn" layoutX="521.0" layoutY="61.0" mnemonicParsing="false" onAction="#resetFunc" prefHeight="26.0" prefWidth="66.0" text="Reset" visible="false" />
+      <Label fx:id="Title" alignment="CENTER" contentDisplay="CENTER" layoutY="289.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="95.0" prefWidth="221.0" text="Wordle" textAlignment="CENTER" AnchorPane.bottomAnchor="330.0" AnchorPane.leftAnchor="190.0">
+         <font>
+            <Font name="Heiti TC Medium" size="48.0" />
+         </font>
+      </Label>
+      <Button fx:id="start" alignment="CENTER" contentDisplay="BOTTOM" mnemonicParsing="false" onAction="#startBtnClicked" prefHeight="34.0" prefWidth="66.0" style="-fx-background-color: #D8C0AF;" text="Start" textAlignment="CENTER" textFill="WHITE" AnchorPane.bottomAnchor="300.0" AnchorPane.leftAnchor="270.0">
+         <font>
+            <Font name="Heiti TC Medium" size="13.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
